@@ -196,7 +196,7 @@ jobs:
 #          java-version: '21'
 #          distribution: 'temurin'
 #
-#      # Оптимизация кэширования Gradle (необязательно, но рекомендуется)
+#      # Оптимизация кэширования Gradle 
 #      - name: Setup Gradle
 #        uses: gradle/gradle-build-action@v3
 #        with:
@@ -204,7 +204,7 @@ jobs:
 #
 #      - name: Build and generate OpenAPI spec
 #        run: |
-#          ./gradlew build generateOpenApiSpec  # Ваша кастомная задача
+#          ./gradlew build generateOpenApiSpec 
 #
 #      - name: Generate Swagger UI site
 #        uses: Legion2/swagger-ui-action@v1
