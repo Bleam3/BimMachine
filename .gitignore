@@ -5,6 +5,25 @@ build/
 !**/src/test/**/build/
 .kotlin
 
+.o
+.txt
+.ttf
+.otf
+
+.gitattributes
+
+/app/build
+/build
+/obj
+/.git
+
+*.ttf
+*.otf
+*.dll
+
+# Ignore Gradle project-specific cache directory
+.gradle
+
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml
