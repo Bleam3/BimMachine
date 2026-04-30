@@ -4,7 +4,7 @@ plugins {
     id 'jacoco'
     id 'maven-publish'
     id 'org.springframework.boot' version '3.2.0'   // повышен для Gradle 9.x
-    id 'io.spring.dependency-management' version '1.1.4'  // обновлён
+    id 'io.spring.dependency-management' version '1.1.4' 
 }
 
 group = 'org.machine'
@@ -22,7 +22,7 @@ checkstyle {
 }
 
 jacoco {
-    toolVersion = "0.8.12"   // обновлён
+    toolVersion = "0.8.12" 
 }
 
 jacocoTestReport {
@@ -78,7 +78,7 @@ test {
     finalizedBy jacocoTestReport
 }
 
-// ✅ Отключаем configuration cache для CI (решает вашу ошибку)
+// Отключаем configuration cache для CI 
 tasks.withType(JavaCompile) {
     options.fork = true
 }
@@ -86,12 +86,12 @@ tasks.withType(JavaCompile) {
 check.dependsOn checkstyleMain, checkstyleTest
 build.dependsOn check, test
 
-// 🔥 Исправленная задача generateOpenApiSpec (если нужна)
+// Исправленная задача generateOpenApiSpec 
 tasks.register('generateOpenApiSpec', Test) {
     group = 'documentation'
     description = 'Generates the OpenAPI specification file.'
     useJUnitPlatform()
-    include '**/OpenApiSpecGenerator.class'   // правильный путь
+    include '**/OpenApiSpecGenerator.class' 
     doLast {
         copy {
             from 'build/openapi/'
