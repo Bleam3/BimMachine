@@ -10,8 +10,6 @@ Python скрипт находится в scripts/collaborators_info.py. ui те
 
 # swagger и фронтенд
 
-## ![swagger](swagger.yaml)
-
 ![визуализация сваггера](swagger1.png)
 ![визуализация сваггера](swagger2.png)
 ![визуализация сваггера](swagger3.png)
