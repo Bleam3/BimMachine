@@ -1,7 +1,9 @@
 # machine
-Реализовали классы Printer и StringSummer, а также ![pipeline] Все настройки сборки проекта в build.gradle.
+Реализовали классы Printer и StringSummer, а также ![pipeline](.github/workflows/deployment.yaml). 
 
-Python скрипт находится в scripts/collaborators_info.py. ui тесты включены в этап с юнит тестированием
+![результаты работы пайплайна](results.png)
+
+Все настройки сборки проекта в build.gradle. Python скрипт находится в scripts/collaborators_info.py. ui тесты включены в этап с юнит тестированием
 
 
 # ui интеграционные тесты
