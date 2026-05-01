@@ -16,7 +16,7 @@ def get_repo_collaborators(token: str,owner: str,repo: str,affiliation: str = "a
     url = f"https://api.github.com/repos/{owner}/{repo}/collaborators"
     params = {
         "affiliation": affiliation,
-        "per_page": 100  # Максимальное количество на страницу
+        "per_page": 100 
     }
 
     collaborators = []
