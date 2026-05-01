@@ -84,7 +84,7 @@ public class SimpleCalculator extends JFrame implements ActionListener{
         ((JComponent) getContentPane()).setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
     }
-
+//
     @Override
     public void actionPerformed(ActionEvent e) {
 
