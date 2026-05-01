@@ -16,5 +16,3 @@ Python скрипт находится в scripts/collaborators_info.py. ui те
 ![визуализация сваггера](swagger4.png)
 ![визуализация сваггера](swagger5.png)
 
-Более ранние работы- (https://github.com/Sovushkaaa/minijam)
-(https://github.com/users/Sovushkaaa/projects/3)
